@@ -1198,5 +1198,11 @@
         "PrinterModel":  "Xerox WorkCentra 7435",
         "PrinterDriver Name":  "Xerox WorkCentre 7435 V4 PCL6",
         "INFFileName":  "XeroxWorkCentre74XX_PCL6.inf "
+    },
+    {
+        "FileName":  "Toshiba Universal Driver.zip",
+        "PrinterModel":  "TOSHIBA Universal Driver",
+        "PrinterDriver Name":  "TOSHIBA Universal Printer 2",
+        "INFFileName":  "esf6u.inf "
     }
 ]
