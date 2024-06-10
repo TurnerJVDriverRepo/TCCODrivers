@@ -1204,5 +1204,11 @@
         "PrinterModel":  "TOSHIBA Universal Driver",
         "PrinterDriver Name":  "TOSHIBA Universal Printer 2",
         "INFFileName":  "esf6u.inf "
+    },
+    {
+        "FileName":  "Toshiba Universal Driver.zip",
+        "PrinterModel":  "TOSHIBA Any Model - Universal Driver",
+        "PrinterDriver Name":  "TOSHIBA Universal Printer 2",
+        "INFFileName":  "esf6u.inf "
     }
 ]
