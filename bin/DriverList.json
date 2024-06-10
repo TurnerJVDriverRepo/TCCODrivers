@@ -1201,8 +1201,14 @@
     },
     {
         "FileName":  "Toshiba Universal Driver.zip",
-        "PrinterModel":  "TOSHIBA Any Model - Universal Driver",
+        "PrinterModel":  "TOSHIBA Universal Driver",
         "PrinterDriver Name":  "TOSHIBA Universal Printer 2",
         "INFFileName":  "esf6u.inf "
+    },
+    {
+        "Filename":  "Ricoh IMC9000.zip",
+        "PrinterModel":  "Ricoh IMC9000",
+        "PrinterDriver Name":  "RICOH IM 9000 PCL 6",
+        "INFFileName":  "oemsetup.inf"
     }
 ]
