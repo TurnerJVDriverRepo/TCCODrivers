@@ -1,16 +1,11 @@
 # Define the path to the JSON file
 $jsonFilePath = "C:\github\TCCODrivers\bin\DriverList.json"
 
-# Function to get user input
-function Get-UserInput($prompt) {
-    Read-Host -Prompt $prompt
-}
-
 # Get user inputs
-$filename = Get-UserInput "Enter the Filename"
-$printerModel = Get-UserInput "Enter the Printer Model"
-$printerDriverName = Get-UserInput "Enter the Printer Driver Name"
-$infFileName = Get-UserInput "Enter the INF File Name"
+$filename = Read-Host "Enter the Filename"
+$printerModel = Read-Host "Enter the Printer Model"
+$printerDriverName = Read-Host "Enter the Printer Driver Name"
+$infFileName = Read-Host "Enter the INF File Name"
 
 # Create a new object with user input
 $newEntry = @{
