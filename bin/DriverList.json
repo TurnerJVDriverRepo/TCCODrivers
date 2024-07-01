@@ -1210,5 +1210,11 @@
         "PrinterModel":  "Ricoh IMC9000",
         "PrinterDriver Name":  "RICOH IM 9000 PCL 6",
         "INFFileName":  "oemsetup.inf"
+    },
+    {
+        "Filename":  "Canon TM355.zip",
+        "PrinterModel":  "Canon TM-355",
+        "PrinterDriver Name":  "Canon TM-355",
+        "INFFileName":  "TM-3556.INF"
     }
 ]
