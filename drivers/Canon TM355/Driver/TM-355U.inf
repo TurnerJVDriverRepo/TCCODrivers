@@ -1,0 +1,100 @@
+;
+; TM-355U.inf
+;
+
+[Version]
+Signature="$Windows NT$"
+Provider=%CANON%
+ClassGUID={36FC9E60-C465-11CF-8056-444553540000}
+Class=USB
+DriverVer=10/03/2022, 1.0.0.0
+CatalogFile=TM-355U.cat
+
+[Manufacturer]
+"Canon" = Canon,NTamd64
+
+[SourceDisksNames]
+1=%DISKLABEL%,,
+
+[SourceDisksFiles]
+
+[Canon]
+"Canon TM-355 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1133&MI_01
+"Canon TM-355 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1133&MI_02
+"Canon TM-255 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1130&MI_01
+"Canon TM-255 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1130&MI_02
+"Canon TM-350 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1134&MI_01
+"Canon TM-350 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1134&MI_02
+"Canon TM-250 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1131&MI_01
+"Canon TM-250 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1131&MI_02
+"Canon TM-340 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1135&MI_01
+"Canon TM-340 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1135&MI_02
+"Canon TM-240 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1132&MI_01
+"Canon TM-240 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1132&MI_02
+
+"Canon TM-355 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1133&MI_03
+"Canon TM-355 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1133&MI_04
+"Canon TM-255 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1130&MI_03
+"Canon TM-255 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1130&MI_04
+"Canon TM-350 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1134&MI_03
+"Canon TM-350 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1134&MI_04
+"Canon TM-250 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1131&MI_03
+"Canon TM-250 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1131&MI_04
+"Canon TM-340 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1135&MI_03
+"Canon TM-340 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1135&MI_04
+"Canon TM-240 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1132&MI_03
+"Canon TM-240 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1132&MI_04
+
+[Canon.NTamd64]
+"Canon TM-355 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1133&MI_01
+"Canon TM-355 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1133&MI_02
+"Canon TM-255 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1130&MI_01
+"Canon TM-255 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1130&MI_02
+"Canon TM-350 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1134&MI_01
+"Canon TM-350 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1134&MI_02
+"Canon TM-250 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1131&MI_01
+"Canon TM-250 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1131&MI_02
+"Canon TM-340 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1135&MI_01
+"Canon TM-340 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1135&MI_02
+"Canon TM-240 USB Driver 1"=Canon_Install, USB\VID_04A9&PID_1132&MI_01
+"Canon TM-240 USB Driver 2"=Canon_Install, USB\VID_04A9&PID_1132&MI_02
+
+"Canon TM-355 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1133&MI_03
+"Canon TM-355 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1133&MI_04
+"Canon TM-255 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1130&MI_03
+"Canon TM-255 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1130&MI_04
+"Canon TM-350 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1134&MI_03
+"Canon TM-350 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1134&MI_04
+"Canon TM-250 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1131&MI_03
+"Canon TM-250 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1131&MI_04
+"Canon TM-340 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1135&MI_03
+"Canon TM-340 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1135&MI_04
+"Canon TM-240 WinUSB Driver 1"=CanonUSB_Install, USB\VID_04A9&PID_1132&MI_03
+"Canon TM-240 WinUSB Driver 2"=CanonUSB_Install, USB\VID_04A9&PID_1132&MI_04
+
+[Canon_Install]
+CopyFiles=Nothing
+AddReg=Nothing
+
+[Nothing]
+
+[Canon_Install.Services]
+AddService = ,2;
+
+[CanonUSB_Install]
+Include = winusb.inf
+Needs   = WINUSB.NT
+
+[CanonUSB_Install.Services]
+Include = winusb.inf
+Needs   = WINUSB.NT.Services
+
+[CanonUSB_Install.HW]
+AddReg=Dev_AddReg
+
+[Dev_AddReg]
+HKR,,DeviceInterfaceGUID,0x00000000,"{68f450d9-27ed-4bbb-b0ad-46de13aece13}"
+
+[Strings]
+CANON="Canon"
+DISKLABEL="Canon imagePROGRAF series Null Driver"
