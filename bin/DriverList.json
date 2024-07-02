@@ -2,1219 +2,1219 @@
     {
         "FileName":  "Brother HL-L3270CDW.zip",
         "PrinterModel":  "Brother HL-L3270CDW",
-        "PrinterDriverName":  "Brother HL-L3270CDW series",
+        "DriverLabel":  "Brother HL-L3270CDW series",
         "INFFileName":  "BROCH17A.INF"
     },
     {
         "FileName":  "Brother J6955DW.zip",
         "PrinterModel":  "Brother J6955DW",
-        "PrinterDriverName":  "Brother MFC-J6955DW Printer",
+        "DriverLabel":  "Brother MFC-J6955DW Printer",
         "INFFileName":  "BRPRI20A.INF "
     },
     {
         "FileName":  "Brother MFC-J6935DW.zip",
         "PrinterModel":  "Brother MFC-J6935DW",
-        "PrinterDriverName":  "Brother MFC-J6935DW Printer",
+        "DriverLabel":  "Brother MFC-J6935DW Printer",
         "INFFileName":  "BRPRI16A.INF "
     },
     {
         "FileName":  "Brother MFC-L2710DW.zip",
         "PrinterModel":  "Brother MFC-L2710DW",
-        "PrinterDriverName":  "Brother MFC-L2710DW series",
+        "DriverLabel":  "Brother MFC-L2710DW series",
         "INFFileName":  "brimm17a.inf "
     },
     {
         "FileName":  "Canon 3325 PCL6.zip",
         "PrinterModel":  "Canon 3325 PCL6",
-        "PrinterDriverName":  "Canon Generic Plus PCL6",
+        "DriverLabel":  "Canon Generic Plus PCL6",
         "INFFileName":  "CNP60MA64.INF "
     },
     {
         "FileName":  "Canon 3325i.zip",
         "PrinterModel":  "Canon 3325i",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.inf "
     },
     {
         "FileName":  "Canon 3530i.zip",
         "PrinterModel":  "Canon 3530i",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.inf "
     },
     {
         "FileName":  "Canon 3725i.zip",
         "PrinterModel":  "Canon 3725i",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.inf "
     },
     {
         "FileName":  "Canon 3826i .zip",
         "PrinterModel":  "Canon 3826i ",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon 5235.zip",
         "PrinterModel":  "Canon 5235",
-        "PrinterDriverName":  "Canon Generic Plus PCL6",
+        "DriverLabel":  "Canon Generic Plus PCL6",
         "INFFileName":  "CNP60MA64.INF "
     },
     {
         "FileName":  "Canon 5255.zip",
         "PrinterModel":  "Canon 5255",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF"
     },
     {
         "FileName":  "Canon 5535.zip",
         "PrinterModel":  "Canon 5535",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF"
     },
     {
         "FileName":  "Canon 5540.zip",
         "PrinterModel":  "Canon 5540",
-        "PrinterDriverName":  "Canon Generic Plus PS3",
+        "DriverLabel":  "Canon Generic Plus PS3",
         "INFFileName":  "CNS30MA64.INF "
     },
     {
         "FileName":  "Canon 5550.zip",
         "PrinterModel":  "Canon 5550",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF"
     },
     {
         "FileName":  "Canon 5735i.zip",
         "PrinterModel":  "Canon 5735i",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.inf "
     },
     {
         "FileName":  "Canon 5740i.zip",
         "PrinterModel":  "Canon 5740i",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.inf "
     },
     {
         "FileName":  "Canon 5750.zip",
         "PrinterModel":  "Canon 5750",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF"
     },
     {
         "FileName":  "Canon 6860.zip",
         "PrinterModel":  "Canon 6860",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.inf"
     },
     {
         "FileName":  "Canon C3330.zip",
         "PrinterModel":  "Canon C3330",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon C3525i.zip",
         "PrinterModel":  "Canon C3525i",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.inf "
     },
     {
         "FileName":  "Canon C3826i.zip",
         "PrinterModel":  "Canon C3826i",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon C5051.zip",
         "PrinterModel":  "Canon C5051",
-        "PrinterDriverName":  "Canon iR-ADV C5045/5051 UFR II",
+        "DriverLabel":  "Canon iR-ADV C5045/5051 UFR II",
         "INFFileName":  "CNLB0UA64.INF "
     },
     {
         "FileName":  "Canon C5235.zip",
         "PrinterModel":  "Canon C5235",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon C5240.zip",
         "PrinterModel":  "Canon C5240",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon C5250.zip",
         "PrinterModel":  "Canon C5250",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon C5550i.zip",
         "PrinterModel":  "Canon C5550i",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.inf "
     },
     {
         "FileName":  "Canon C5740i.zip",
         "PrinterModel":  "Canon C5740i",
-        "PrinterDriverName":  "Canon GPlus UFRII Driver V260",
+        "DriverLabel":  "Canon GPlus UFRII Driver V260",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon C5840.zip",
         "PrinterModel":  "Canon C5840",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon C5850.zip",
         "PrinterModel":  "Canon C5850",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon C5860.zip",
         "PrinterModel":  "Canon C5860",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64 "
     },
     {
         "FileName":  "Canon C7570.zip",
         "PrinterModel":  "Canon C7570",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon Generic UFRII v250.zip",
         "PrinterModel":  "Canon Generic UFRII v250",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon Generic UFRII v262.zip",
         "PrinterModel":  "Canon Generic UFRII v262",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon Generic UFRII v270.zip",
         "PrinterModel":  "Canon Generic UFRII v270",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon Generic UFRII v272.zip",
         "PrinterModel":  "Canon Generic UFRII v272",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon ImageRunner Advance C5235.zip",
         "PrinterModel":  "Canon ImageRunner Advance C5235",
-        "PrinterDriverName":  "Canon Generic Plus PCL6",
+        "DriverLabel":  "Canon Generic Plus PCL6",
         "INFFileName":  "CNP60MA64.INF "
     },
     {
         "FileName":  "Canon ImageRunner Advance DX C5860i.zip",
         "PrinterModel":  "Canon ImageRunner Advance DX C5860i",
-        "PrinterDriverName":  "CNLB0MA64",
+        "DriverLabel":  "CNLB0MA64",
         "INFFileName":  "CNLB0MA64.inf "
     },
     {
         "FileName":  "Canon iPF750.zip",
         "PrinterModel":  "Canon iPF750",
-        "PrinterDriverName":  "Canon iPF750",
+        "DriverLabel":  "Canon iPF750",
         "INFFileName":  "6WJF07.INF "
     },
     {
         "FileName":  "Canon iPF755.zip",
         "PrinterModel":  "Canon iPF755",
-        "PrinterDriverName":  "Canon iPF755",
+        "DriverLabel":  "Canon iPF755",
         "INFFileName":  "6WJF07M.INF "
     },
     {
         "FileName":  "Canon iPF760.zip",
         "PrinterModel":  "Canon iPF760",
-        "PrinterDriverName":  "Canon iPF760",
+        "DriverLabel":  "Canon iPF760",
         "INFFileName":  "6WW760M.INF "
     },
     {
         "FileName":  "Canon iPF765.zip",
         "PrinterModel":  "Canon iPF765",
-        "PrinterDriverName":  "Canon iPF765",
+        "DriverLabel":  "Canon iPF765",
         "INFFileName":  "6WW760M.INF "
     },
     {
         "FileName":  "Canon iPF770.zip",
         "PrinterModel":  "Canon iPF770",
-        "PrinterDriverName":  "Canon iPF770",
+        "DriverLabel":  "Canon iPF770",
         "INFFileName":  "6WW77JM.INF "
     },
     {
         "FileName":  "Canon iPF780.zip",
         "PrinterModel":  "Canon iPF780",
-        "PrinterDriverName":  "Canon iPF780",
+        "DriverLabel":  "Canon iPF780",
         "INFFileName":  "6WW780M.INF "
     },
     {
         "FileName":  "Canon iPF785.zip",
         "PrinterModel":  "Canon iPF785",
-        "PrinterDriverName":  "Canon iPF785",
+        "DriverLabel":  "Canon iPF785",
         "INFFileName":  "6WW780M.INF "
     },
     {
         "FileName":  "Canon iPF830.zip",
         "PrinterModel":  "Canon iPF830",
-        "PrinterDriverName":  "Canon iPF830",
+        "DriverLabel":  "Canon iPF830",
         "INFFileName":  "6WW83AM.INF "
     },
     {
         "FileName":  "Canon iPF8400SE.zip",
         "PrinterModel":  "Canon iPF8400SE",
-        "PrinterDriverName":  "Canon iPF8400SE",
+        "DriverLabel":  "Canon iPF8400SE",
         "INFFileName":  "6WS84DM.INF"
     },
     {
         "FileName":  "Canon iPR C650.zip",
         "PrinterModel":  "Canon iPR C650",
-        "PrinterDriverName":  "Canon iPR Svr G200 V1.0 US",
+        "DriverLabel":  "Canon iPR Svr G200 V1.0 US",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Canon iPR M10 .zip",
         "PrinterModel":  "Canon iPR M10 ",
-        "PrinterDriverName":  "Canon iPR Svr M10 PS V2.0 US",
+        "DriverLabel":  "Canon iPR Svr M10 PS V2.0 US",
         "INFFileName":  "oemsetupEN.inf "
     },
     {
         "FileName":  "Canon iPR Svr G200.zip",
         "PrinterModel":  "Canon iPR Svr G200",
-        "PrinterDriverName":  "Canon iPR Svr G200 V1.0 US",
+        "DriverLabel":  "Canon iPR Svr G200 V1.0 US",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Canon iPR Svr G250 V1.0 US.zip",
         "PrinterModel":  "Canon iPR Svr G250 V1.0 US",
-        "PrinterDriverName":  "Canon iPR Svr G250 V1.0 US",
+        "DriverLabel":  "Canon iPR Svr G250 V1.0 US",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Canon iPR V700 Fiery.zip",
         "PrinterModel":  "Canon iPR V700 Fiery",
-        "PrinterDriverName":  "Canon iPR Svr P400 PS V1.0 US",
+        "DriverLabel":  "Canon iPR Svr P400 PS V1.0 US",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon iPR V700 PS3.zip",
         "PrinterModel":  "Canon iPR V700 PS3",
-        "PrinterDriverName":  "Canon Generic Plus PS3",
+        "DriverLabel":  "Canon Generic Plus PS3",
         "INFFileName":  "CNS30MA64.INF "
     },
     {
         "FileName":  "Canon iPR V700.zip",
         "PrinterModel":  "Canon iPR V700",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon iR-ADV C3525/C3530 UFR II.zip",
         "PrinterModel":  "Canon iR-ADV C3525/C3530 UFR II",
-        "PrinterDriverName":  "Canon iR-ADV C3525/C3530 UFR II",
+        "DriverLabel":  "Canon iR-ADV C3525/C3530 UFR II",
         "INFFileName":  "CNLB0UA64.inf "
     },
     {
         "FileName":  "Canon iR-ADV C3530.zip",
         "PrinterModel":  "Canon iR-ADV C3530",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon iR-ADV C5240.zip",
         "PrinterModel":  "Canon iR-ADV C5240",
-        "PrinterDriverName":  "Canon iR-ADV C5235/5240 UFR II",
+        "DriverLabel":  "Canon iR-ADV C5235/5240 UFR II",
         "INFFileName":  "CNLB0UA64.inf "
     },
     {
         "FileName":  "Canon IR-ADV C5535i PS3.zip",
         "PrinterModel":  "Canon IR-ADV C5535i PS3",
-        "PrinterDriverName":  "Canon iR-ADV C5535/5540 PS3",
+        "DriverLabel":  "Canon iR-ADV C5535/5540 PS3",
         "INFFileName":  "CNS30UA64.INF "
     },
     {
         "FileName":  "Canon iR-ADV C5535i.zip",
         "PrinterModel":  "Canon iR-ADV C5535i",
-        "PrinterDriverName":  "Canon iR-ADV C5535/5540 UFR II",
+        "DriverLabel":  "Canon iR-ADV C5535/5540 UFR II",
         "INFFileName":  "CNLB0UA64.inf "
     },
     {
         "FileName":  "Canon iR-ADV C5540i.zip",
         "PrinterModel":  "Canon iR-ADV C5540i",
-        "PrinterDriverName":  "Canon iR-ADV C5535/5540 UFR II",
+        "DriverLabel":  "Canon iR-ADV C5535/5540 UFR II",
         "INFFileName":  "CNLB0UA64.inf "
     },
     {
         "FileName":  "Canon iR-ADV C5560.zip",
         "PrinterModel":  "Canon iR-ADV C5560",
-        "PrinterDriverName":  "Canon iR-ADV C5550/5560 UFR II",
+        "DriverLabel":  "Canon iR-ADV C5550/5560 UFR II",
         "INFFileName":  "CNLB0UA64.INF "
     },
     {
         "FileName":  "Canon iR-ADV C5840.zip",
         "PrinterModel":  "Canon iR-ADV C5840",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon Pro4000.zip",
         "PrinterModel":  "Canon Pro4000",
-        "PrinterDriverName":  "Canon PRO-4000",
+        "DriverLabel":  "Canon PRO-4000",
         "INFFileName":  "PRO-40006.inf "
     },
     {
         "FileName":  "Canon TA-30.zip",
         "PrinterModel":  "Canon TA-30",
-        "PrinterDriverName":  "Canon TA-30",
+        "DriverLabel":  "Canon TA-30",
         "INFFileName":  "TX-40006.inf "
     },
     {
         "FileName":  "Canon TM-300.zip",
         "PrinterModel":  "Canon TM-300",
-        "PrinterDriverName":  "Canon TM-300",
+        "DriverLabel":  "Canon TM-300",
         "INFFileName":  "TX-40006.INF "
     },
     {
         "FileName":  "Canon TM305.zip",
         "PrinterModel":  "Canon TM305",
-        "PrinterDriverName":  "Canon TM-305",
+        "DriverLabel":  "Canon TM-305",
         "INFFileName":  "TX-40006.INF "
     },
     {
         "FileName":  "Canon_IR3861.zip",
         "PrinterModel":  "Canon_IR3861",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Canon-3926i.zip",
         "PrinterModel":  "Canon-3926i",
-        "PrinterDriverName":  "Canon Generic Plus UFR II",
+        "DriverLabel":  "Canon Generic Plus UFR II",
         "INFFileName":  "CNLB0MA64.INF "
     },
     {
         "FileName":  "Epson 7740.zip",
         "PrinterModel":  "Epson 7740",
-        "PrinterDriverName":  "Epson Universal Print Driver",
+        "DriverLabel":  "Epson Universal Print Driver",
         "INFFileName":  "EUPD_Core_x64_27005 "
     },
     {
         "FileName":  "Epson EC-C7000.zip",
         "PrinterModel":  "Epson EC-C7000",
-        "PrinterDriverName":  "EPSON EC-C7000 Series",
+        "DriverLabel":  "EPSON EC-C7000 Series",
         "INFFileName":  "E_WF1WNE.INF "
     },
     {
         "FileName":  "EPSON ST-C8090.zip",
         "PrinterModel":  "EPSON ST-C8090",
-        "PrinterDriverName":  "EPSON ST-C8090 Series",
+        "DriverLabel":  "EPSON ST-C8090 Series",
         "INFFileName":  "E_WF1XSE.INF "
     },
     {
         "FileName":  "Epson WF-7840.zip",
         "PrinterModel":  "Epson WF-7840",
-        "PrinterDriverName":  "EPSON WF-7840 Series",
+        "DriverLabel":  "EPSON WF-7840 Series",
         "INFFileName":  "E_WF1WME.INF "
     },
     {
         "FileName":  "HP Color LaserJet Flow E87750 .zip",
         "PrinterModel":  "HP Color LaserJet Flow E87750 ",
-        "PrinterDriverName":  "HP Smart Universal Printing",
+        "DriverLabel":  "HP Smart Universal Printing",
         "INFFileName":  "HPOneDriver_V4_x64.inf "
     },
     {
         "FileName":  "HP Color LaserJet M553.zip",
         "PrinterModel":  "HP Color LaserJet M553",
-        "PrinterDriverName":  "HP Color LaserJet M553 PCL-6",
+        "DriverLabel":  "HP Color LaserJet M553 PCL-6",
         "INFFileName":  "hpmacf2a4_x64.inf "
     },
     {
         "FileName":  "HP Color LaserJet Pro MFP M479fdw.zip",
         "PrinterModel":  "HP Color LaserJet Pro MFP M479fdw",
-        "PrinterDriverName":  "HP Color LaserJet Pro M478f-9f PCL 6 (V3)",
+        "DriverLabel":  "HP Color LaserJet Pro M478f-9f PCL 6 (V3)",
         "INFFileName":  "hpclC52A_x64.ini "
     },
     {
         "FileName":  "HP DesigJet T2600 PS3.zip",
         "PrinterModel":  "HP DesigJet T2600 PS3",
-        "PrinterDriverName":  "HP DesignJet PS3",
+        "DriverLabel":  "HP DesignJet PS3",
         "INFFileName":  "hpi11gev.inf "
     },
     {
         "FileName":  "HP DesigJet T2600.zip",
         "PrinterModel":  "HP DesigJet T2600",
-        "PrinterDriverName":  "HP DesignJet T2600 PDF V4",
+        "DriverLabel":  "HP DesignJet T2600 PDF V4",
         "INFFileName":  "hpi2146.inf "
     },
     {
         "FileName":  "HP Designjet 500.zip",
         "PrinterModel":  "HP Designjet 500",
-        "PrinterDriverName":  "HP Designjet 500 24 by HP",
+        "DriverLabel":  "HP Designjet 500 24 by HP",
         "INFFileName":  "dsgj500.inf "
     },
     {
         "FileName":  "HP DesignJet T1300.zip",
         "PrinterModel":  "HP DesignJet T1300",
-        "PrinterDriverName":  "HP DesignJet T1300 V4",
+        "DriverLabel":  "HP DesignJet T1300 V4",
         "INFFileName":  "hpi2144.inf "
     },
     {
         "FileName":  "HP DesignJet T1600.zip",
         "PrinterModel":  "HP DesignJet T1600",
-        "PrinterDriverName":  "HP DesignJet T1600 V4",
+        "DriverLabel":  "HP DesignJet T1600 V4",
         "INFFileName":  "hpi2144.inf "
     },
     {
         "FileName":  "HP DesignJet T210 24-in.zip",
         "PrinterModel":  "HP DesignJet T210 24-in",
-        "PrinterDriverName":  "HP DesignJet T210 24-in V4",
+        "DriverLabel":  "HP DesignJet T210 24-in V4",
         "INFFileName":  "hpi2144.inf "
     },
     {
         "FileName":  "HP DesignJet T2500.zip",
         "PrinterModel":  "HP DesignJet T2500",
-        "PrinterDriverName":  "HP DesignJet T2500 V4",
+        "DriverLabel":  "HP DesignJet T2500 V4",
         "INFFileName":  "hpi2144.inf "
     },
     {
         "FileName":  "HP Designjet T520.zip",
         "PrinterModel":  "HP Designjet T520",
-        "PrinterDriverName":  "HP DesignJet HPGL2 Driver",
+        "DriverLabel":  "HP DesignJet HPGL2 Driver",
         "INFFileName":  "hpi16gex.inf"
     },
     {
         "FileName":  "HP DesignJet T525.zip",
         "PrinterModel":  "HP DesignJet T525",
-        "PrinterDriverName":  "HP DesignJet T525 24-in Printer V4",
+        "DriverLabel":  "HP DesignJet T525 24-in Printer V4",
         "INFFileName":  "hpi2144.inf "
     },
     {
         "FileName":  "HP DesignJet T530.zip",
         "PrinterModel":  "HP DesignJet T530",
-        "PrinterDriverName":  "HP DesignJet T530 24-in Printer V4",
+        "DriverLabel":  "HP DesignJet T530 24-in Printer V4",
         "INFFileName":  "hpi2144.inf "
     },
     {
         "FileName":  "HP DesignJet T630.zip",
         "PrinterModel":  "HP DesignJet T630",
-        "PrinterDriverName":  "HP DesignJet T630 36-in V4",
+        "DriverLabel":  "HP DesignJet T630 36-in V4",
         "INFFileName":  "hpi2144.inf "
     },
     {
         "FileName":  "HP Designjet T730.zip",
         "PrinterModel":  "HP Designjet T730",
-        "PrinterDriverName":  "HP DesignJet T730 V4",
+        "DriverLabel":  "HP DesignJet T730 V4",
         "INFFileName":  "hpi2144.inf "
     },
     {
         "FileName":  "HP Designjet T770.zip",
         "PrinterModel":  "HP Designjet T770",
-        "PrinterDriverName":  "HP Designjet T770 44in HPGL2",
+        "DriverLabel":  "HP Designjet T770 44in HPGL2",
         "INFFileName":  "hpi770yx.inf "
     },
     {
         "FileName":  "HP Designjet T830.zip",
         "PrinterModel":  "HP Designjet T830",
-        "PrinterDriverName":  "HP DesignJet T830 24in MFP V4",
+        "DriverLabel":  "HP DesignJet T830 24in MFP V4",
         "INFFileName":  "hpi2144.inf "
     },
     {
         "FileName":  "HP Designjet Z5400.zip",
         "PrinterModel":  "HP Designjet Z5400",
-        "PrinterDriverName":  "HP DesignJet Z5400ps PS3",
+        "DriverLabel":  "HP DesignJet Z5400ps PS3",
         "INFFileName":  "hpi94dev.inf "
     },
     {
         "FileName":  "HP Laserjet 3015.zip",
         "PrinterModel":  "HP Laserjet 3015",
-        "PrinterDriverName":  "HP Universal Printing PS",
+        "DriverLabel":  "HP Universal Printing PS",
         "INFFileName":  "hpcu240v.inf "
     },
     {
         "FileName":  "HP Laserjet 4001.zip",
         "PrinterModel":  "HP Laserjet 4001",
-        "PrinterDriverName":  "HP LaserJet Pro 4001 4002 4003 4004 PCL-6 (V4)",
+        "DriverLabel":  "HP LaserJet Pro 4001 4002 4003 4004 PCL-6 (V4)",
         "INFFileName":  "hpyo02744_x64.inf "
     },
     {
         "FileName":  "HP LaserJet 4200tn.zip",
         "PrinterModel":  "HP LaserJet 4200tn",
-        "PrinterDriverName":  "HP Universal Printing PCL 6",
+        "DriverLabel":  "HP Universal Printing PCL 6",
         "INFFileName":  "hpcu255u.inf "
     },
     {
         "FileName":  "HP LaserJet 6015.zip",
         "PrinterModel":  "HP LaserJet 6015",
-        "PrinterDriverName":  "HP Universal Printing PCL 6",
+        "DriverLabel":  "HP Universal Printing PCL 6",
         "INFFileName":  "hpcu255u.inf "
     },
     {
         "FileName":  "HP LaserJet 6040.zip",
         "PrinterModel":  "HP LaserJet 6040",
-        "PrinterDriverName":  "HP Universal Printing PCL 6",
+        "DriverLabel":  "HP Universal Printing PCL 6",
         "INFFileName":  "hpcu255u.inf "
     },
     {
         "FileName":  "HP Laserjet 9040.zip",
         "PrinterModel":  "HP Laserjet 9040",
-        "PrinterDriverName":  "HP Universal Printing PS",
+        "DriverLabel":  "HP Universal Printing PS",
         "INFFileName":  "hpcu255v.inf "
     },
     {
         "FileName":  "HP LaserJet M209dw.zip",
         "PrinterModel":  "HP LaserJet M209dw",
-        "PrinterDriverName":  "HP LaserJet M207-M212 PCLm-S",
+        "DriverLabel":  "HP LaserJet M207-M212 PCLm-S",
         "INFFileName":  "hpypclms32_v4.inf "
     },
     {
         "FileName":  "HP LaserJet M400.zip",
         "PrinterModel":  "HP LaserJet M400",
-        "PrinterDriverName":  "HP LaserJet 400 M401 PCL 6",
+        "DriverLabel":  "HP LaserJet 400 M401 PCL 6",
         "INFFileName":  "hpcm401u.inf "
     },
     {
         "FileName":  "HP LaserJet M404N.zip",
         "PrinterModel":  "HP LaserJet M404N",
-        "PrinterDriverName":  "HP LaserJet Pro M404-M405 PCL 6 (V3)",
+        "DriverLabel":  "HP LaserJet Pro M404-M405 PCL 6 (V3)",
         "INFFileName":  "hpmoC12A_x64.inf "
     },
     {
         "FileName":  "HP Laserjet M605.zip",
         "PrinterModel":  "HP Laserjet M605",
-        "PrinterDriverName":  "HP LaserJet M605 PCL-6",
+        "DriverLabel":  "HP LaserJet M605 PCL-6",
         "INFFileName":  "hpev3f2a4_x64.inf "
     },
     {
         "FileName":  "HP LaserJet M712.zip",
         "PrinterModel":  "HP LaserJet M712",
-        "PrinterDriverName":  "HP LaserJet 700 M712 PCL 6",
+        "DriverLabel":  "HP LaserJet 700 M712 PCL 6",
         "INFFileName":  "hpcm712u.inf "
     },
     {
         "FileName":  "HP LaserJet M750.zip",
         "PrinterModel":  "HP LaserJet M750",
-        "PrinterDriverName":  "HP Universal Printing PCL 6",
+        "DriverLabel":  "HP Universal Printing PCL 6",
         "INFFileName":  "hpcu255u.inf "
     },
     {
         "FileName":  "HP LaserJet M775.zip",
         "PrinterModel":  "HP LaserJet M775",
-        "PrinterDriverName":  "HP LaserJet 700 color MFP M775 PCL 6",
+        "DriverLabel":  "HP LaserJet 700 color MFP M775 PCL 6",
         "INFFileName":  "hpcm775u.inf"
     },
     {
         "FileName":  "HP M451dn.zip",
         "PrinterModel":  "HP M451dn",
-        "PrinterDriverName":  "HP Universal Printing PCL 6",
+        "DriverLabel":  "HP Universal Printing PCL 6",
         "INFFileName":  "hpcu255u.inf "
     },
     {
         "FileName":  "HP Office Jet Pro 7740.zip",
         "PrinterModel":  "HP Office Jet Pro 7740",
-        "PrinterDriverName":  "HP OfficeJet Pro 7740 series",
+        "DriverLabel":  "HP OfficeJet Pro 7740 series",
         "INFFileName":  "hpygid60.inf "
     },
     {
         "FileName":  "HP OfficeJet Pro 6978.zip",
         "PrinterModel":  "HP OfficeJet Pro 6978",
-        "PrinterDriverName":  "HP OfficeJet Pro 6970",
+        "DriverLabel":  "HP OfficeJet Pro 6970",
         "INFFileName":  "hpygid20.inf "
     },
     {
         "FileName":  "HP T2530.zip",
         "PrinterModel":  "HP T2530",
-        "PrinterDriverName":  "HP DesignJet T2530 V4",
+        "DriverLabel":  "HP DesignJet T2530 V4",
         "INFFileName":  "hpi2144.inf "
     },
     {
         "FileName":  "HP XL 4100.zip",
         "PrinterModel":  "HP XL 4100",
-        "PrinterDriverName":  "HP PageWide XL 4100PS HPGL2",
+        "DriverLabel":  "HP PageWide XL 4100PS HPGL2",
         "INFFileName":  "hpi17nix.inf "
     },
     {
         "FileName":  "KIP 860 Plotter.zip",
         "PrinterModel":  "KIP 860 Plotter",
-        "PrinterDriverName":  "KIP 860",
+        "DriverLabel":  "KIP 860",
         "INFFileName":  "KipSystemK.inf "
     },
     {
         "FileName":  "Konica C754.zip",
         "PrinterModel":  "Konica C754",
-        "PrinterDriverName":  "KONICA MINOLTA C754SeriesPCL",
+        "DriverLabel":  "KONICA MINOLTA C754SeriesPCL",
         "INFFileName":  "KOAYSJ__.INF "
     },
     {
         "FileName":  "Konica Minolta C224.zip",
         "PrinterModel":  "Konica Minolta C224",
-        "PrinterDriverName":  "KONICA MINOLTA C364SeriesPCL",
+        "DriverLabel":  "KONICA MINOLTA C364SeriesPCL",
         "INFFileName":  "KOAYTJ__.INF "
     },
     {
         "FileName":  "Konica Minolta C250i.zip",
         "PrinterModel":  "Konica Minolta C250i",
-        "PrinterDriverName":  "KONICA MINOLTA C360iSeriesPS",
+        "DriverLabel":  "KONICA MINOLTA C360iSeriesPS",
         "INFFileName":  "Winx64 "
     },
     {
         "FileName":  "Konica Minolta C360i.zip",
         "PrinterModel":  "Konica Minolta C360i",
-        "PrinterDriverName":  "KOAXCA__",
+        "DriverLabel":  "KOAXCA__",
         "INFFileName":  "KOAXCA__.inf "
     },
     {
         "FileName":  "Konica Minolta C550i.zip",
         "PrinterModel":  "Konica Minolta C550i",
-        "PrinterDriverName":  "KONICA MINOLTA Universal V4 PCL",
+        "DriverLabel":  "KONICA MINOLTA Universal V4 PCL",
         "INFFileName":  "KOBxxK__01.inf "
     },
     {
         "FileName":  "Konica Minolta C558 v2101.zip",
         "PrinterModel":  "Konica Minolta C558 v2101",
-        "PrinterDriverName":  "KONICA MINOLTA Universal V4 PCL",
+        "DriverLabel":  "KONICA MINOLTA Universal V4 PCL",
         "INFFileName":  "KOAXPJ__.INF "
     },
     {
         "FileName":  "Konica Minolta C558.zip",
         "PrinterModel":  "Konica Minolta C558",
-        "PrinterDriverName":  "KONICA MINOLTA C658SeriesPCL",
+        "DriverLabel":  "KONICA MINOLTA C658SeriesPCL",
         "INFFileName":  "KOAXPJ__.INF "
     },
     {
         "FileName":  "KONICA MINOLTA Universal 2.zip",
         "PrinterModel":  "KONICA MINOLTA Universal 2",
-        "PrinterDriverName":  "KONICA MINOLTA Universal V4 PCL",
+        "DriverLabel":  "KONICA MINOLTA Universal V4 PCL",
         "INFFileName":  "KOBxxK__01.INF "
     },
     {
         "FileName":  "Konica TX3100.zip",
         "PrinterModel":  "Konica TX3100",
-        "PrinterDriverName":  "KONICA MINOLTA Universal V4 PCL",
+        "DriverLabel":  "KONICA MINOLTA Universal V4 PCL",
         "INFFileName":  "TX-41003.INF "
     },
     {
         "FileName":  "Kyocera 300ci.zip",
         "PrinterModel":  "Kyocera 300ci",
-        "PrinterDriverName":  "Kyocera TASKalfa 300ci KX",
+        "DriverLabel":  "Kyocera TASKalfa 300ci KX",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Kyocera 3554ci.zip",
         "PrinterModel":  "Kyocera 3554ci",
-        "PrinterDriverName":  "Kyocera TASKalfa 3554ci KX",
+        "DriverLabel":  "Kyocera TASKalfa 3554ci KX",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Kyocera 5052ci.zip",
         "PrinterModel":  "Kyocera 5052ci",
-        "PrinterDriverName":  "Kyocera TASKalfa 5052ci KX",
+        "DriverLabel":  "Kyocera TASKalfa 5052ci KX",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Kyocera 6052ci.zip",
         "PrinterModel":  "Kyocera 6052ci",
-        "PrinterDriverName":  "Kyocera TASKalfa 6052ci KX",
+        "DriverLabel":  "Kyocera TASKalfa 6052ci KX",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Kyocera3051ci.zip",
         "PrinterModel":  "Kyocera3051ci",
-        "PrinterDriverName":  "Kyocera TASKalfa 3051ci KX",
+        "DriverLabel":  "Kyocera TASKalfa 3051ci KX",
         "INFFileName":  "oemSETUP.INF "
     },
     {
         "FileName":  "Lanier 550C.zip",
         "PrinterModel":  "Lanier 550C",
-        "PrinterDriverName":  "LANIER MP C5000/LD550C PCL 6",
+        "DriverLabel":  "LANIER MP C5000/LD550C PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Lanier C4503.zip",
         "PrinterModel":  "Lanier C4503",
-        "PrinterDriverName":  "LANIER MP C4503 PCL 6",
+        "DriverLabel":  "LANIER MP C4503 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Lanier C6000.zip",
         "PrinterModel":  "Lanier C6000",
-        "PrinterDriverName":  "LANIER IM C6000 PCL 6",
+        "DriverLabel":  "LANIER IM C6000 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Lanier C6003.zip",
         "PrinterModel":  "Lanier C6003",
-        "PrinterDriverName":  "LANIER MP C6003 PCL 6",
+        "DriverLabel":  "LANIER MP C6003 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Lanier IM C6000.zip",
         "PrinterModel":  "Lanier IM C6000",
-        "PrinterDriverName":  "PCL6 Driver for Universal Print",
+        "DriverLabel":  "PCL6 Driver for Universal Print",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Lanier LW5100.zip",
         "PrinterModel":  "Lanier LW5100",
-        "PrinterDriverName":  "LANIER LW5100 PS",
+        "DriverLabel":  "LANIER LW5100 PS",
         "INFFileName":  "LANSETUP.inf "
     },
     {
         "FileName":  "LANIER MP C6004.zip",
         "PrinterModel":  "LANIER MP C6004",
-        "PrinterDriverName":  "LANIER MP C6004 PCL 6",
+        "DriverLabel":  "LANIER MP C6004 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "MuratecC2280.zip",
         "PrinterModel":  "MuratecC2280",
-        "PrinterDriverName":  "Generic 36C-6SeriesPCL",
+        "DriverLabel":  "Generic 36C-6SeriesPCL",
         "INFFileName":  "KOAYTJA_.INF "
     },
     {
         "FileName":  "Ricoh 2554.zip",
         "PrinterModel":  "Ricoh 2554",
-        "PrinterDriverName":  "RICOH MP 2554 PCL 6",
+        "DriverLabel":  "RICOH MP 2554 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh 2554J.zip",
         "PrinterModel":  "Ricoh 2554J",
-        "PrinterDriverName":  "RICOH MP 2554J PCL 6",
+        "DriverLabel":  "RICOH MP 2554J PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh 3054.zip",
         "PrinterModel":  "Ricoh 3054",
-        "PrinterDriverName":  "RICOH MP 3054 PCL 6",
+        "DriverLabel":  "RICOH MP 3054 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh 5502.zip",
         "PrinterModel":  "Ricoh 5502",
-        "PrinterDriverName":  "RICOH Aficio MP C5502 PCL 6",
+        "DriverLabel":  "RICOH Aficio MP C5502 PCL 6",
         "INFFileName":  "OEMSETUP.INF"
     },
     {
         "FileName":  "Ricoh 5503.zip",
         "PrinterModel":  "Ricoh 5503",
-        "PrinterDriverName":  "RICOH MP C5503 PCL 6",
+        "DriverLabel":  "RICOH MP C5503 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh 6054.zip",
         "PrinterModel":  "Ricoh 6054",
-        "PrinterDriverName":  "RICOH MP 6054 PCL 6",
+        "DriverLabel":  "RICOH MP 6054 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh 7502.zip",
         "PrinterModel":  "Ricoh 7502",
-        "PrinterDriverName":  "RICOH Aficio MP 7502 PCL 6",
+        "DriverLabel":  "RICOH Aficio MP 7502 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh C3001.zip",
         "PrinterModel":  "Ricoh C3001",
-        "PrinterDriverName":  "RICOH Aficio MP C3001 PCL 6",
+        "DriverLabel":  "RICOH Aficio MP C3001 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh C3003.zip",
         "PrinterModel":  "Ricoh C3003",
-        "PrinterDriverName":  "RICOH MP C3003 PCL 6",
+        "DriverLabel":  "RICOH MP C3003 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh C3502.zip",
         "PrinterModel":  "Ricoh C3502",
-        "PrinterDriverName":  "RICOH Aficio MP C3502 PCL 6",
+        "DriverLabel":  "RICOH Aficio MP C3502 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh C3503.zip",
         "PrinterModel":  "Ricoh C3503",
-        "PrinterDriverName":  "RICOH MP C3503 PCL 6",
+        "DriverLabel":  "RICOH MP C3503 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh C3504.zip",
         "PrinterModel":  "Ricoh C3504",
-        "PrinterDriverName":  "RICOH MP C3504 PCL 6",
+        "DriverLabel":  "RICOH MP C3504 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh C4500.zip",
         "PrinterModel":  "Ricoh C4500",
-        "PrinterDriverName":  "RICOH IM C4500 PCL 6",
+        "DriverLabel":  "RICOH IM C4500 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh C4501.zip",
         "PrinterModel":  "Ricoh C4501",
-        "PrinterDriverName":  "RICOH Aficio MP C4501 PCL 6",
+        "DriverLabel":  "RICOH Aficio MP C4501 PCL 6",
         "INFFileName":  "OEMSETUP.INF"
     },
     {
         "FileName":  "Ricoh C4502.zip",
         "PrinterModel":  "Ricoh C4502",
-        "PrinterDriverName":  "RICOH Aficio MP C4502 PCL 6",
+        "DriverLabel":  "RICOH Aficio MP C4502 PCL 6",
         "INFFileName":  "OEMSETUP.INF"
     },
     {
         "FileName":  "Ricoh C4503.zip",
         "PrinterModel":  "Ricoh C4503",
-        "PrinterDriverName":  "RICOH MP C4503 PCL 6",
+        "DriverLabel":  "RICOH MP C4503 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh C4504 PCL 6 v1800.zip",
         "PrinterModel":  "Ricoh C4504 PCL 6 v1800",
-        "PrinterDriverName":  "RICOH MP C4504 PCL 6",
+        "DriverLabel":  "RICOH MP C4504 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh C4504.zip",
         "PrinterModel":  "Ricoh C4504",
-        "PrinterDriverName":  "RICOH MP C4504ex PCL 6",
+        "DriverLabel":  "RICOH MP C4504ex PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh C5000.zip",
         "PrinterModel":  "Ricoh C5000",
-        "PrinterDriverName":  "RICOH Aficio MP C5000 PCL 6",
+        "DriverLabel":  "RICOH Aficio MP C5000 PCL 6",
         "INFFileName":  "OEMSETUP.INF"
     },
     {
         "FileName":  "Ricoh C5503.zip",
         "PrinterModel":  "Ricoh C5503",
-        "PrinterDriverName":  "RICOH MP C5503 PCL 6",
+        "DriverLabel":  "RICOH MP C5503 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh C6003.zip",
         "PrinterModel":  "Ricoh C6003",
-        "PrinterDriverName":  "RICOH MP C6003 PCL 6",
+        "DriverLabel":  "RICOH MP C6003 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh C6004.zip",
         "PrinterModel":  "Ricoh C6004",
-        "PrinterDriverName":  "RICOH MP C6004 PCL 6",
+        "DriverLabel":  "RICOH MP C6004 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh C8003.zip",
         "PrinterModel":  "Ricoh C8003",
-        "PrinterDriverName":  "RICOH MP C8003 PCL 6",
+        "DriverLabel":  "RICOH MP C8003 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh IM C2000.zip",
         "PrinterModel":  "Ricoh IM C2000",
-        "PrinterDriverName":  "RICOH IM C2000 PCL 6",
+        "DriverLabel":  "RICOH IM C2000 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh IM C2500.zip",
         "PrinterModel":  "Ricoh IM C2500",
-        "PrinterDriverName":  "RICOH IM C2500 PCL 6",
+        "DriverLabel":  "RICOH IM C2500 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh IM C300.zip",
         "PrinterModel":  "Ricoh IM C300",
-        "PrinterDriverName":  "RICOH IM C300 PCL 6",
+        "DriverLabel":  "RICOH IM C300 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh IM C3500.zip",
         "PrinterModel":  "Ricoh IM C3500",
-        "PrinterDriverName":  "RICOH IM C3500 PCL 6",
+        "DriverLabel":  "RICOH IM C3500 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh IM C6000.zip",
         "PrinterModel":  "Ricoh IM C6000",
-        "PrinterDriverName":  "RICOH IM C6000 PCL 6",
+        "DriverLabel":  "RICOH IM C6000 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh IM C8000.zip",
         "PrinterModel":  "Ricoh IM C8000",
-        "PrinterDriverName":  "RICOH IM C8000 PCL 6",
+        "DriverLabel":  "RICOH IM C8000 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh IMC3000.zip",
         "PrinterModel":  "Ricoh IMC3000",
-        "PrinterDriverName":  "RICOH IM C3000 PCL 6",
+        "DriverLabel":  "RICOH IM C3000 PCL 6",
         "INFFileName":  "oemsetup.inf"
     },
     {
         "FileName":  "Ricoh IMC9000.zip",
         "PrinterModel":  "Ricoh IMC9000",
-        "PrinterDriverName":  "Gestetner IM C3000 PCL 6",
+        "DriverLabel":  "Gestetner IM C3000 PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh MP 5055.zip",
         "PrinterModel":  "Ricoh MP 5055",
-        "PrinterDriverName":  "RICOH MP C5055 PCL 6",
+        "DriverLabel":  "RICOH MP C5055 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh MP 9003.zip",
         "PrinterModel":  "Ricoh MP 9003",
-        "PrinterDriverName":  "RICOH MP 9003 PCL 6",
+        "DriverLabel":  "RICOH MP 9003 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Ricoh MP C2004ex.zip",
         "PrinterModel":  "Ricoh MP C2004ex",
-        "PrinterDriverName":  "RICOH MP C2004ex PCL 6",
+        "DriverLabel":  "RICOH MP C2004ex PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh MP C3004ex PCL 6.zip",
         "PrinterModel":  "Ricoh MP C3004ex PCL 6",
-        "PrinterDriverName":  "Ricoh MP C3004ex PCL 6",
+        "DriverLabel":  "Ricoh MP C3004ex PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "RICOH MP CW2201 PS.zip",
         "PrinterModel":  "RICOH MP CW2201 PS",
-        "PrinterDriverName":  "RICOH MP CW2201 PS",
+        "DriverLabel":  "RICOH MP CW2201 PS",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh Pro C5210S with Fiery E-24B.zip",
         "PrinterModel":  "Ricoh Pro C5210S with Fiery E-24B",
-        "PrinterDriverName":  "Pro C5200Sseries E-24B PS 1.0",
+        "DriverLabel":  "Pro C5200Sseries E-24B PS 1.0",
         "INFFileName":  "oemsetupen.inf "
     },
     {
         "FileName":  "Ricoh Pro C5300S with E-27B.zip",
         "PrinterModel":  "Ricoh Pro C5300S with E-27B",
-        "PrinterDriverName":  "Pro C5300Sseries E-27B PS US1.0",
+        "DriverLabel":  "Pro C5300Sseries E-27B PS US1.0",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh Pro C5300S with Fiery E-27B.zip",
         "PrinterModel":  "Ricoh Pro C5300S with Fiery E-27B",
-        "PrinterDriverName":  "Pro C5300Sseries E-27B PS US1.0",
+        "DriverLabel":  "Pro C5300Sseries E-27B PS US1.0",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Ricoh Universal PCL6 V4 v4.22.zip",
         "PrinterModel":  "Ricoh Universal PCL6 V4 v4.22",
-        "PrinterDriverName":  "PCL6 V4 Driver for Universal Print",
+        "DriverLabel":  "PCL6 V4 Driver for Universal Print",
         "INFFileName":  "r4600.inf "
     },
     {
         "FileName":  "Ricoh Universal PCL6 V4.zip",
         "PrinterModel":  "Ricoh Universal PCL6 V4",
-        "PrinterDriverName":  "PCL6 V4 Driver for Universal Print",
+        "DriverLabel":  "PCL6 V4 Driver for Universal Print",
         "INFFileName":  "r4600.inf "
     },
     {
         "FileName":  "Samsung MutliExpress X4300LX.zip",
         "PrinterModel":  "Samsung MutliExpress X4300LX",
-        "PrinterDriverName":  "Samsung X4300 Series",
+        "DriverLabel":  "Samsung X4300 Series",
         "INFFileName":  "ssl6c.inf "
     },
     {
         "FileName":  "Savin C3504.zip",
         "PrinterModel":  "Savin C3504",
-        "PrinterDriverName":  "SAVIN MP C3504ex PCL 6",
+        "DriverLabel":  "SAVIN MP C3504ex PCL 6",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Savin C600.zip",
         "PrinterModel":  "Savin C600",
-        "PrinterDriverName":  "SAVIN IM C6000 PCL 6",
+        "DriverLabel":  "SAVIN IM C6000 PCL 6",
         "INFFileName":  "OEMSETUP.INF "
     },
     {
         "FileName":  "Sharp BP-70C31.zip",
         "PrinterModel":  "Sharp BP-70C31",
-        "PrinterDriverName":  "SHARP UD3 PCL6",
+        "DriverLabel":  "SHARP UD3 PCL6",
         "INFFileName":  "sv0emenu.inf "
     },
     {
         "FileName":  "Sharp BP-70C55.zip",
         "PrinterModel":  "Sharp BP-70C55",
-        "PrinterDriverName":  "SHARP BP-70C55 PS",
+        "DriverLabel":  "SHARP BP-70C55 PS",
         "INFFileName":  "su3hmenu.inf "
     },
     {
         "FileName":  "Sharp MX 6071S.zip",
         "PrinterModel":  "Sharp MX 6071S",
-        "PrinterDriverName":  "Sharp MX6071 PCL6",
+        "DriverLabel":  "Sharp MX6071 PCL6",
         "INFFileName":  "su2emenu.inf "
     },
     {
         "FileName":  "Sharp MX-3070N.zip",
         "PrinterModel":  "Sharp MX-3070N",
-        "PrinterDriverName":  "SHARP MX-3070N PCL6",
+        "DriverLabel":  "SHARP MX-3070N PCL6",
         "INFFileName":  "su0emenu.inf "
     },
     {
         "FileName":  "Sharp MX3071.zip",
         "PrinterModel":  "Sharp MX3071",
-        "PrinterDriverName":  "SHARP Driver(v4) PCL6",
+        "DriverLabel":  "SHARP Driver(v4) PCL6",
         "INFFileName":  "su06menu.inf "
     },
     {
         "FileName":  "Sharp MX-3110N.zip",
         "PrinterModel":  "Sharp MX-3110N",
-        "PrinterDriverName":  "SHARP MX-3110N PCL6",
+        "DriverLabel":  "SHARP MX-3110N PCL6",
         "INFFileName":  "ss0emenu.inf"
     },
     {
         "FileName":  "Sharp MX-3570N.zip",
         "PrinterModel":  "Sharp MX-3570N",
-        "PrinterDriverName":  "SHARP Driver(v4) PCL6",
+        "DriverLabel":  "SHARP Driver(v4) PCL6",
         "INFFileName":  "su06menu.inf "
     },
     {
         "FileName":  "Sharp MX-4070N.zip",
         "PrinterModel":  "Sharp MX-4070N",
-        "PrinterDriverName":  "SHARP MX-4070N PCL6",
+        "DriverLabel":  "SHARP MX-4070N PCL6",
         "INFFileName":  "su0emenu.inf "
     },
     {
         "FileName":  "Sharp MX-5070N.zip",
         "PrinterModel":  "Sharp MX-5070N",
-        "PrinterDriverName":  "SHARP Driver(v4) PCL6",
+        "DriverLabel":  "SHARP Driver(v4) PCL6",
         "INFFileName":  "su06menu.inf "
     },
     {
         "FileName":  "Sharp MX5071 PCL6 .zip",
         "PrinterModel":  "Sharp MX5071 PCL6 ",
-        "PrinterDriverName":  "SHARP MX-5071 PCL6",
+        "DriverLabel":  "SHARP MX-5071 PCL6",
         "INFFileName":  "su2emenu.inf "
     },
     {
         "FileName":  "Sharp MX5071 PS.zip",
         "PrinterModel":  "Sharp MX5071 PS",
-        "PrinterDriverName":  "SHARP MX-5071 PS",
+        "DriverLabel":  "SHARP MX-5071 PS",
         "INFFileName":  "su2hmenu.inf "
     },
     {
         "FileName":  "Toshiba 3505AC.zip",
         "PrinterModel":  "Toshiba 3505AC",
-        "PrinterDriverName":  "TOSHIBA Universal PS3",
+        "DriverLabel":  "TOSHIBA Universal PS3",
         "INFFileName":  "eSf6p.inf "
     },
     {
         "FileName":  "Toshiba Universal.zip",
         "PrinterModel":  "Toshiba Universal",
-        "PrinterDriverName":  "TOSHIBA Universal Printer 2",
+        "DriverLabel":  "TOSHIBA Universal Printer 2",
         "INFFileName":  "eSf6u.INF "
     },
     {
         "FileName":  "Xerox 7845.zip",
         "PrinterModel":  "Xerox 7845",
-        "PrinterDriverName":  "Xerox WorkCentre 7845 V4 PCL6",
+        "DriverLabel":  "Xerox WorkCentre 7845 V4 PCL6",
         "INFFileName":  "XeroxWorkCentre78XX_PCL6.inf "
     },
     {
         "FileName":  "Xerox B235.zip",
         "PrinterModel":  "Xerox B235",
-        "PrinterDriverName":  "Xerox B235 MFP V4 PCL6",
+        "DriverLabel":  "Xerox B235 MFP V4 PCL6",
         "INFFileName":  "Xerox_B225_B230_B235_PCL6.inf "
     },
     {
         "FileName":  "Xerox C7025.zip",
         "PrinterModel":  "Xerox C7025",
-        "PrinterDriverName":  "Xerox VersaLink C7025 V4 PCL6",
+        "DriverLabel":  "Xerox VersaLink C7025 V4 PCL6",
         "INFFileName":  "Xerox_VersaLink_C7000_C7020_C7025_C7030_PCL6.inf "
     },
     {
         "FileName":  "Xerox C8035.zip",
         "PrinterModel":  "Xerox C8035",
-        "PrinterDriverName":  "Xerox AltaLink C8035 V4 PCL6",
+        "DriverLabel":  "Xerox AltaLink C8035 V4 PCL6",
         "INFFileName":  "XeroxAltaLinkC80xx_PCL6.inf "
     },
     {
         "FileName":  "Xerox C8045.zip",
         "PrinterModel":  "Xerox C8045",
-        "PrinterDriverName":  "Xerox AltaLink C8045 PCL6",
+        "DriverLabel":  "Xerox AltaLink C8045 PCL6",
         "INFFileName":  "x3ASKYX.inf "
     },
     {
         "FileName":  "Xerox C8070.zip",
         "PrinterModel":  "Xerox C8070",
-        "PrinterDriverName":  "Xerox AltaLink C8070 PCL6",
+        "DriverLabel":  "Xerox AltaLink C8070 PCL6",
         "INFFileName":  "x3ASKYX.inf "
     },
     {
         "FileName":  "Xerox C8135.zip",
         "PrinterModel":  "Xerox C8135",
-        "PrinterDriverName":  "Xerox AltaLink C8135 V4 PCL6",
+        "DriverLabel":  "Xerox AltaLink C8135 V4 PCL6",
         "INFFileName":  "XeroxAltaLinkC81xx_PCL6.inf "
     },
     {
         "FileName":  "Xerox C8145.zip",
         "PrinterModel":  "Xerox C8145",
-        "PrinterDriverName":  "Xerox AltaLink C8145 V4 PCL6",
+        "DriverLabel":  "Xerox AltaLink C8145 V4 PCL6",
         "INFFileName":  "XeroxAltaLinkC81xx_PCL6.inf "
     },
     {
         "FileName":  "Xerox C8155.zip",
         "PrinterModel":  "Xerox C8155",
-        "PrinterDriverName":  "Xerox AltaLink C8155 V4 PCL6",
+        "DriverLabel":  "Xerox AltaLink C8155 V4 PCL6",
         "INFFileName":  "XeroxAltaLinkC81xx_PCL6.inf "
     },
     {
         "FileName":  "Xerox Color C60/C70.zip",
         "PrinterModel":  "Xerox Color C60/C70",
-        "PrinterDriverName":  "Xerox Global Print Driver PCL6",
+        "DriverLabel":  "Xerox Global Print Driver PCL6",
         "INFFileName":  "x3UNIVX.inf "
     },
     {
         "FileName":  "Xerox Fiery EX-i C70 Printer.zip",
         "PrinterModel":  "Xerox Fiery EX-i C70 Printer",
-        "PrinterDriverName":  "Xerox EX-i C60-C70 Printer",
+        "DriverLabel":  "Xerox EX-i C60-C70 Printer",
         "INFFileName":  "oemsetup.inf "
     },
     {
         "FileName":  "Xerox VersaLink C405.zip",
         "PrinterModel":  "Xerox VersaLink C405",
-        "PrinterDriverName":  "Xerox VersaLink C405 V4 PCL6",
+        "DriverLabel":  "Xerox VersaLink C405 V4 PCL6",
         "INFFileName":  "Xerox_VersaLink_C400_C405_PCL6.inf "
     },
     {
         "FileName":  "Xerox WorkCentra 7435.zip",
         "PrinterModel":  "Xerox WorkCentra 7435",
-        "PrinterDriverName":  "Xerox WorkCentre 7435 V4 PCL6",
+        "DriverLabel":  "Xerox WorkCentre 7435 V4 PCL6",
         "INFFileName":  "XeroxWorkCentre74XX_PCL6.inf "
     },
     {
         "FileName":  "Toshiba Universal Driver.zip",
         "PrinterModel":  "TOSHIBA Universal Driver",
-        "PrinterDriverName":  "TOSHIBA Universal Printer 2",
+        "DriverLabel":  "TOSHIBA Universal Printer 2",
         "INFFileName":  "esf6u.inf "
     },
     {
         "Filename":  "Ricoh IMC9000.zip",
         "PrinterModel":  "Ricoh IMC9000",
-        "PrinterDriverName":  "RICOH IM 9000 PCL 6",
+        "DriverLabel":  "RICOH IM 9000 PCL 6",
         "INFFileName":  "oemsetup.inf"
     },
     {
         "Filename":  "Canon TM355.zip",
         "PrinterModel":  "Canon TM-355",
-        "PrinterDriverName":  "Canon TM-355",
+        "DriverLabel":  "Canon TM-355",
         "INFFileName":  "TM-3556.INF"
     }
 ]
