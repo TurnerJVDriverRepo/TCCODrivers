@@ -69,12 +69,13 @@ try {
 }
 
 # Retrieve entries from the GitHub repository
-$entries = Get-GitHubContent -OwnerName TurnerJVDriverRepo -RepositoryName TCCODrivers -Path drivers | Select-Object -ExpandProperty Entries | Where-object {$_.Name -NE "bin"}
+$entries = Get-GitHubContent -OwnerName TurnerJVDriverRepo -RepositoryName TCCODrivers -Path drivers | Select-Object -ExpandProperty Entries
 
 # Combine JSON data with entries based on matching "FileName" and "Name"
 $combinedEntries = @()
 foreach ($entry in $entries) {
     $match = $jsonContent | Where-Object { $_.FileName -eq $entry.name }
+    $match
     if ($match) {
         $combinedEntry = [PSCustomObject]@{
             PrinterModel   = $entry.name -replace '\.zip$', ''
