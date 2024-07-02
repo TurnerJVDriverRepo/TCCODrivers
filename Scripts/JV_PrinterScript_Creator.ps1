@@ -83,7 +83,7 @@ foreach ($entry in $entries) {
             FileSize       = "$([math]::Round($entry.size / 1MB)) MB"
             DownloadURL    = $entry.download_url
             INFFileName    = $match.INFFileName  # Assuming INFFileName is a property in the JSON
-            DriverName     = $match.PrinterDriverName
+            DriverLabel     = $match.DriverLabel
         }
         $combinedEntries += $combinedEntry
     }
@@ -98,13 +98,13 @@ $indexedEntries = $combinedEntries | ForEach-Object {
         FileSize       = $_.FileSize
         DownloadURL    = $_.DownloadURL
         INFFileName    = $_.INFFileName
-        DriverName     = $_.DriverName
+        DriverLabel     = $_.DriverLabel
     }
 }
 
 # Convert indexedEntries to DataTable for DataGridView
 $dataTable = New-Object System.Data.DataTable
-$columns = @("Number", "PrinterModel", "Name", "INFFileName", "DriverName", "FileSize","DownloadURL")
+$columns = @("Number", "PrinterModel", "Name", "INFFileName", "DriverLabel", "FileSize","DownloadURL")
 foreach ($col in $columns) {
     $null = $dataTable.Columns.Add($col)
 }
@@ -117,7 +117,7 @@ foreach ($entry in $indexedEntries) {
     $row["FileSize"] = $entry.FileSize
     $row["DownloadURL"] = $entry.DownloadURL
     $row["INFFileName"] = $entry.INFFileName
-    $row["DriverName"] = $entry.DriverName
+    $row["DriverLabel"] = $entry.DriverLabel
     $dataTable.Rows.Add($row)
 }
 
@@ -160,7 +160,7 @@ $button.Add_Click({
             FileSize = $selectedRow.Cells["FileSize"].Value
             DownloadURL = $selectedRow.Cells["DownloadURL"].Value
             INFFileName = $selectedRow.Cells["INFFileName"].Value
-            DriverName = $selectedRow.Cells["DriverName"].Value
+            DriverLabel = $selectedRow.Cells["DriverLabel"].Value
         }
         [System.Windows.Forms.MessageBox]::Show("You selected: " + $($script:selectedEntry.Name))
         $form1.Close()
@@ -208,22 +208,22 @@ $textBoxDisplayName.Location = New-Object System.Drawing.Point(150, 60)
 $textBoxDisplayName.Size = New-Object System.Drawing.Size(200, 20)
 $form2.Controls.Add($textBoxDisplayName)
 
-# $labelDrivername = New-Object System.Windows.Forms.Label
-# $labelDrivername.Text = "Printer Driver Name (Info):"
-# $labelDrivername.Location = New-Object System.Drawing.Point(10, 100)
-# $form2.Controls.Add($labelDrivername)
+# $labelDriverLabel = New-Object System.Windows.Forms.Label
+# $labelDriverLabel.Text = "Printer Driver Name (Info):"
+# $labelDriverLabel.Location = New-Object System.Drawing.Point(10, 100)
+# $form2.Controls.Add($labelDriverLabel)
 
-#tooltip for Printer DriverName
+#tooltip for Printer DriverLabel
 # $toolTip = New-Object System.Windows.Forms.ToolTip
 # $toolTip.IsBalloon = $true  # Optional: Display as a balloon tooltip
 # $toolTip.InitialDelay = 500  # Delay before the tooltip is shown (in milliseconds)
-# $toolTip.SetToolTip($labelDrivername, "Example: RICOH MP C8003 PCL 6)`n This can be found in the INF file")
+# $toolTip.SetToolTip($labelDriverLabel, "Example: RICOH MP C8003 PCL 6)`n This can be found in the INF file")
 
 
-# $textBoxDrivername = New-Object System.Windows.Forms.TextBox
-# $textBoxDrivername.Location = New-Object System.Drawing.Point(150, 100)
-# $textBoxDrivername.Size = New-Object System.Drawing.Size(200, 20)
-# $form2.Controls.Add($textBoxDrivername)
+# $textBoxDriverLabel = New-Object System.Windows.Forms.TextBox
+# $textBoxDriverLabel.Location = New-Object System.Drawing.Point(150, 100)
+# $textBoxDriverLabel.Size = New-Object System.Drawing.Size(200, 20)
+# $form2.Controls.Add($textBoxDriverLabel)
 
 # Create a button to submit the printer information
 $submitButton = New-Object System.Windows.Forms.Button
@@ -236,12 +236,12 @@ $form2.Controls.Add($submitButton)
 $submitButton.Add_Click({
     $script:printerIP = $textBoxIP.Text
     $script:printerDisplayName = $textBoxDisplayName.Text
-    $script:driverName = $textBoxDrivername.Text
+    $script:DriverLabel = $textBoxDriverLabel.Text
 
     if ([string]::IsNullOrWhiteSpace($printerIP) -or [string]::IsNullOrWhiteSpace($printerDisplayName)) {
         [System.Windows.Forms.MessageBox]::Show("Please fill in all fields.")
     } else {
-        [System.Windows.Forms.MessageBox]::Show("Printer IP: " + $script:printerIP + "`nPrinter DisplayName: " + $script:printerDisplayName + "`nPrinter Driver Name: " + $script:driverName)
+        [System.Windows.Forms.MessageBox]::Show("Printer IP: " + $script:printerIP + "`nPrinter DisplayName: " + $script:printerDisplayName + "`nPrinter Driver Name: " + $script:DriverLabel)
         $form2.Close()
     }
 })
@@ -265,7 +265,7 @@ if ($selectedEntry -ne $null) {
 Write-host "Printer IP: $printerIP
 Printer DisplayName: $printerDisplayName
 Printer Model: $($selectedEntry.PrinterModel)
-Printer Driver Name: $driverName
+Printer Driver Name: $DriverLabel
 `nGenerating Printer Script in C:\Temp\
 " -ForegroundColor Green
 
@@ -371,7 +371,7 @@ Try{
 
     # Create Printer Entry
     rundll32 printui.dll,PrintUIEntry /dl /q /n "$printerDisplayName"
-    rundll32 printui.dll,PrintUIEntry /if /n "$PrinterDisplayName" /b "$PrinterDisplayName" /f "`$(`$INFPath.FullName)" /r $printerIP /m "$driverName"
+    rundll32 printui.dll,PrintUIEntry /if /n "$PrinterDisplayName" /b "$PrinterDisplayName" /f "`$(`$INFPath.FullName)" /r $printerIP /m "$DriverLabel"
 
     # Update progress to completion
     `$percentComplete = 100
