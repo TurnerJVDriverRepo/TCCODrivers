@@ -82,7 +82,7 @@ foreach ($entry in $entries) {
             FileSize       = "$([math]::Round($entry.size / 1MB)) MB"
             DownloadURL    = $entry.download_url
             INFFileName    = $match.INFFileName  # Assuming INFFileName is a property in the JSON
-            DriverName     = $match.PrinterDriverName 
+            DriverName     = $match.PrinterDriverName
         }
         $combinedEntries += $combinedEntry
     }
@@ -97,12 +97,13 @@ $indexedEntries = $combinedEntries | ForEach-Object {
         FileSize       = $_.FileSize
         DownloadURL    = $_.DownloadURL
         INFFileName    = $_.INFFileName
+        DriverName     = $_.DriverName
     }
 }
 
 # Convert indexedEntries to DataTable for DataGridView
 $dataTable = New-Object System.Data.DataTable
-$columns = @("Number", "PrinterModel", "Name", "INFFileName", "FileSize","DownloadURL")
+$columns = @("Number", "PrinterModel", "Name", "INFFileName", "DriverName", "FileSize","DownloadURL")
 foreach ($col in $columns) {
     $null = $dataTable.Columns.Add($col)
 }
@@ -115,6 +116,7 @@ foreach ($entry in $indexedEntries) {
     $row["FileSize"] = $entry.FileSize
     $row["DownloadURL"] = $entry.DownloadURL
     $row["INFFileName"] = $entry.INFFileName
+    $row["DriverName"] = $entry.DriverName
     $dataTable.Rows.Add($row)
 }
 
@@ -157,6 +159,7 @@ $button.Add_Click({
             FileSize = $selectedRow.Cells["FileSize"].Value
             DownloadURL = $selectedRow.Cells["DownloadURL"].Value
             INFFileName = $selectedRow.Cells["INFFileName"].Value
+            DriverName = $selectedRow.Cells["DriverName"].Value
         }
         [System.Windows.Forms.MessageBox]::Show("You selected: " + $($script:selectedEntry.Name))
         $form1.Close()
@@ -204,22 +207,22 @@ $textBoxDisplayName.Location = New-Object System.Drawing.Point(150, 60)
 $textBoxDisplayName.Size = New-Object System.Drawing.Size(200, 20)
 $form2.Controls.Add($textBoxDisplayName)
 
-$labelDrivername = New-Object System.Windows.Forms.Label
-$labelDrivername.Text = "Printer Driver Name (Info):"
-$labelDrivername.Location = New-Object System.Drawing.Point(10, 100)
-$form2.Controls.Add($labelDrivername)
+# $labelDrivername = New-Object System.Windows.Forms.Label
+# $labelDrivername.Text = "Printer Driver Name (Info):"
+# $labelDrivername.Location = New-Object System.Drawing.Point(10, 100)
+# $form2.Controls.Add($labelDrivername)
 
 #tooltip for Printer DriverName
-$toolTip = New-Object System.Windows.Forms.ToolTip
-$toolTip.IsBalloon = $true  # Optional: Display as a balloon tooltip
-$toolTip.InitialDelay = 500  # Delay before the tooltip is shown (in milliseconds)
-$toolTip.SetToolTip($labelDrivername, "Example: RICOH MP C8003 PCL 6)`n This can be found in the INF file")
+# $toolTip = New-Object System.Windows.Forms.ToolTip
+# $toolTip.IsBalloon = $true  # Optional: Display as a balloon tooltip
+# $toolTip.InitialDelay = 500  # Delay before the tooltip is shown (in milliseconds)
+# $toolTip.SetToolTip($labelDrivername, "Example: RICOH MP C8003 PCL 6)`n This can be found in the INF file")
 
 
-$textBoxDrivername = New-Object System.Windows.Forms.TextBox
-$textBoxDrivername.Location = New-Object System.Drawing.Point(150, 100)
-$textBoxDrivername.Size = New-Object System.Drawing.Size(200, 20)
-$form2.Controls.Add($textBoxDrivername)
+# $textBoxDrivername = New-Object System.Windows.Forms.TextBox
+# $textBoxDrivername.Location = New-Object System.Drawing.Point(150, 100)
+# $textBoxDrivername.Size = New-Object System.Drawing.Size(200, 20)
+# $form2.Controls.Add($textBoxDrivername)
 
 # Create a button to submit the printer information
 $submitButton = New-Object System.Windows.Forms.Button
