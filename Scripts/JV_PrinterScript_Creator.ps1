@@ -104,20 +104,20 @@ $indexedEntries = $combinedEntries | ForEach-Object {
 
 # Convert indexedEntries to DataTable for DataGridView
 $dataTable = New-Object System.Data.DataTable
-$columns = @("Number", "PrinterModel", "Name", "INFFileName", "DriverLabel", "FileSize","DownloadURL")
+$columns = @("Number", "Printer Model", "Name", "INF File Name", "Driver Label", "File Size","Download URL")
 foreach ($col in $columns) {
     $null = $dataTable.Columns.Add($col)
 }
 
 foreach ($entry in $indexedEntries) {
     $row = $dataTable.NewRow()
-    $row["PrinterModel"] = $entry.PrinterModel
+    $row["Printer Model"] = $entry.PrinterModel
     $row["Number"] = $entry.Number
     $row["Name"] = $entry.Name
-    $row["FileSize"] = $entry.FileSize
-    $row["DownloadURL"] = $entry.DownloadURL
-    $row["INFFileName"] = $entry.INFFileName
-    $row["DriverLabel"] = $entry.DriverLabel
+    $row["File Size"] = $entry.FileSize
+    $row["Download URL"] = $entry.DownloadURL
+    $row["INF File Name"] = $entry.INFFileName
+    $row["Driver Label"] = $entry.DriverLabel
     $dataTable.Rows.Add($row)
 }
 
@@ -155,14 +155,14 @@ $button.Add_Click({
         $selectedRow = $dataGridView.SelectedRows[0]
         $script:selectedEntry = @{
             Number = $selectedRow.Cells["Number"].Value
-            PrinterModel = $selectedRow.Cells["PrinterModel"].Value
+            PrinterModel = $selectedRow.Cells["Printer Model"].Value
             Name = $selectedRow.Cells["Name"].Value
-            FileSize = $selectedRow.Cells["FileSize"].Value
-            DownloadURL = $selectedRow.Cells["DownloadURL"].Value
-            INFFileName = $selectedRow.Cells["INFFileName"].Value
-            DriverLabel = $selectedRow.Cells["DriverLabel"].Value
+            FileSize = $selectedRow.Cells["File Size"].Value
+            DownloadURL = $selectedRow.Cells["Download URL"].Value
+            INFFileName = $selectedRow.Cells["INF File Name"].Value
+            DriverLabel = $selectedRow.Cells["Driver Label"].Value
         }
-        [System.Windows.Forms.MessageBox]::Show("You selected: " + $($script:selectedEntry.Name))
+        [System.Windows.Forms.MessageBox]::Show("You selected: " + $($script:selectedEntry.name))
         $form1.Close()
     } else {
         [System.Windows.Forms.MessageBox]::Show("Please select an entry.")
@@ -184,7 +184,7 @@ Try{
 # Create the second form
 $form2 = New-Object System.Windows.Forms.Form
 $form2.Text = "Enter Printer Information"
-$form2.Size = New-Object System.Drawing.Size(400, 250)
+$form2.Size = New-Object System.Drawing.Size(400, 175)
 $form2.StartPosition = "CenterScreen"
 
 # Create labels and textboxes for Printer IP and DisplayName
@@ -208,27 +208,10 @@ $textBoxDisplayName.Location = New-Object System.Drawing.Point(150, 60)
 $textBoxDisplayName.Size = New-Object System.Drawing.Size(200, 20)
 $form2.Controls.Add($textBoxDisplayName)
 
-# $labelDriverLabel = New-Object System.Windows.Forms.Label
-# $labelDriverLabel.Text = "Printer Driver Name (Info):"
-# $labelDriverLabel.Location = New-Object System.Drawing.Point(10, 100)
-# $form2.Controls.Add($labelDriverLabel)
-
-#tooltip for Printer DriverLabel
-# $toolTip = New-Object System.Windows.Forms.ToolTip
-# $toolTip.IsBalloon = $true  # Optional: Display as a balloon tooltip
-# $toolTip.InitialDelay = 500  # Delay before the tooltip is shown (in milliseconds)
-# $toolTip.SetToolTip($labelDriverLabel, "Example: RICOH MP C8003 PCL 6)`n This can be found in the INF file")
-
-
-# $textBoxDriverLabel = New-Object System.Windows.Forms.TextBox
-# $textBoxDriverLabel.Location = New-Object System.Drawing.Point(150, 100)
-# $textBoxDriverLabel.Size = New-Object System.Drawing.Size(200, 20)
-# $form2.Controls.Add($textBoxDriverLabel)
-
 # Create a button to submit the printer information
 $submitButton = New-Object System.Windows.Forms.Button
 $submitButton.Size = New-Object System.Drawing.Size(100, 30)
-$submitButton.Location = New-Object System.Drawing.Point(150, 150)
+$submitButton.Location = New-Object System.Drawing.Point(150, 90)
 $submitButton.Text = "Submit"
 $form2.Controls.Add($submitButton)
 
@@ -236,12 +219,12 @@ $form2.Controls.Add($submitButton)
 $submitButton.Add_Click({
     $script:printerIP = $textBoxIP.Text
     $script:printerDisplayName = $textBoxDisplayName.Text
-    $script:DriverLabel = $textBoxDriverLabel.Text
+    $script:DriverLabel = $($script:selectedEntry.DriverLabel)
 
     if ([string]::IsNullOrWhiteSpace($printerIP) -or [string]::IsNullOrWhiteSpace($printerDisplayName)) {
         [System.Windows.Forms.MessageBox]::Show("Please fill in all fields.")
     } else {
-        [System.Windows.Forms.MessageBox]::Show("Printer IP: " + $script:printerIP + "`nPrinter DisplayName: " + $script:printerDisplayName + "`nPrinter Driver Name: " + $script:DriverLabel)
+        [System.Windows.Forms.MessageBox]::Show("Printer IP: " + $script:printerIP + "`nPrinter DisplayName: " + $script:printerDisplayName + "`nDriver Label: " + $($script:selectedEntry.DriverLabel))
         $form2.Close()
     }
 })
@@ -275,7 +258,7 @@ $scriptcontent = @"
 
 ##########################
 # Created by Ryan Curran #
-# Revision Date 6/3/24  #
+# Revision Date 7/2/24   #
 ##########################
 
 Add-Type -assembly "system.io.compression.filesystem"
