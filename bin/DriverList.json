@@ -960,12 +960,6 @@
         "INFFileName":  "oemsetup.inf"
     },
     {
-        "FileName":  "Ricoh IMC9000.zip",
-        "PrinterModel":  "Ricoh IMC9000",
-        "DriverLabel":  "Gestetner IM C3000 PCL 6",
-        "INFFileName":  "oemsetup.inf"
-    },
-    {
         "FileName":  "Ricoh MP 5055.zip",
         "PrinterModel":  "Ricoh MP 5055",
         "DriverLabel":  "RICOH MP C5055 PCL 6",
@@ -1016,6 +1010,12 @@
     {
         "FileName":  "Ricoh Universal Print Driver PCL6.zip",
         "PrinterModel":  "Ricoh Universal Print Driver PCL6",
+        "DriverLabel":  "RICOH PCL6 UniversalDriver V4.38",
+        "INFFileName":  "oemsetup.inf"
+    },
+    {
+        "FileName":  "Ricoh Universal Print Driver PCL6.zip",
+        "PrinterModel":  "Lanier Universal Print Driver PCL6",
         "DriverLabel":  "RICOH PCL6 UniversalDriver V4.38",
         "INFFileName":  "oemsetup.inf"
     },
@@ -1216,5 +1216,23 @@
         "PrinterModel":  "Canon TM-355",
         "DriverLabel":  "Canon TM-355",
         "INFFileName":  "TM-3556.INF"
+    },
+    {
+        "Filename":  "Xerox Global Print Driver PCL6.zip",
+        "PrinterModel":  "Xerox Global Print Driver PCL6",
+        "DriverLabel":  "Xerox Global Print Driver PCL6",
+        "INFFileName":  "x3univx.inf"
+    },
+    {
+        "Filename":  "Canon Generic Driver PCL6.zip",
+        "PrinterModel":  "Canon Generic Plus PCL6",
+        "DriverLabel":  "Canon Generic Plus PCL6",
+        "INFFileName":  "cnp60ma64.inf"
+    },
+    {
+        "FileName":  "HP Universal Print Driver PCL6.zip",
+        "PrinterModel":  "HP Universal Print Driver PCl6",
+        "DriverLabel":  "HP Universal Printing PCL 6",
+        "INFFileName":  "hpcu300u.inf"
     }
 ]

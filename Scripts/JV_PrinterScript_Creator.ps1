@@ -71,10 +71,11 @@ try {
 # Retrieve entries from the GitHub repository
 $entries = Get-GitHubContent -OwnerName TurnerJVDriverRepo -RepositoryName TCCODrivers -Path drivers | Select-Object -ExpandProperty Entries
 
+$entries
 # Combine JSON data with entries based on matching "FileName" and "Name"
 $combinedEntries = @()
 foreach ($entry in $entries) {
-    $match = $jsonContent | Where-Object { $_.FileName -eq $entry.name }
+    $match = $jsonContent | Where-Object { $_.FileName -like $entry.name }
     $match
     if ($match) {
         $combinedEntry = [PSCustomObject]@{
