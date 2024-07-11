@@ -1,6 +1,6 @@
 ########################
 #Created by Ryan Curran#
-# 6/3/24               #
+# 7/11/24              #
 ########################
 
 Function Check-RunAsAdministrator()
@@ -259,7 +259,7 @@ $scriptcontent = @"
 
 ##########################
 # Created by Ryan Curran #
-# Revision Date 7/2/24   #
+# Revision Date 7/11/24  #
 ##########################
 
 Add-Type -assembly "system.io.compression.filesystem"
