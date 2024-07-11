@@ -1,20 +1,33 @@
+#open Dialog box for Driverlist.json
+Function Get-FileName($InitialDirectory)
+{
+    [System.Reflection.Assembly]::LoadWithPartialName("System.windows.forms") | Out-Null
+
+  $OpenFileDialog = New-Object System.Windows.Forms.OpenFileDialog
+  $OpenFileDialog.dereferencelinks = $False #Make $True is you want to address of the shortcut rather than the path
+  $OpenFileDialog.initialDirectory = $initialDirectory
+  $OpenFileDialog.filter = "JSON (*.JSON) | *.JSON"
+  $OpenFileDialog.ShowDialog() | Out-Null
+  $OpenFileDialog.FileName
+}
+
 # Define the path to the JSON file
-$jsonFilePath = "C:\github\TCCODrivers\bin\DriverList.json"
+$jsonFilePath = Get-FileName
 
 # Get user inputs
-$filename = Read-Host "Enter the Filename"
-$printerModel = Read-Host "Enter the Printer Model"
-$printerDriverName = Read-Host "Enter the Printer Driver Name"
-$infFileName = Read-Host "Enter the INF File Name"
+$filename = Read-Host "Enter the Filename (Ex: Xerox Work Centre 7435.zip)"
+$printerModel = Read-Host "Enter the Printer Model (Ex: Xerox WorkCentre 7435)"
+$printerDriverName = Read-Host "Enter the Printer Driver Name (Ex: Xerox WorkCentre 7435 V6 PCL6)"
+$infFileName = Read-Host "Enter the INF File Name (Ex: XeroxWorkCentre74XX_PCL6.inf)"
 
 # Create a new object with user input
 $newEntry = @{
-    "Filename" = $filename
     "PrinterModel" = $printerModel
-    "PrinterDriver Name" = $printerDriverName
+    "Filename" = $filename
+    "DriverLabel" = $printerDriverName
     "INFFileName" = $infFileName
 }
-
+$newEntry
 # Convert the object to JSON format
 $newEntryJson = $newEntry | ConvertTo-Json -Depth 10
 
