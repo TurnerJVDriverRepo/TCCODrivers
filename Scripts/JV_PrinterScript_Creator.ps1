@@ -1,6 +1,6 @@
 ########################
 #Created by Ryan Curran#
-# 7/11/24              #
+# 7/24/24              #
 # Ver. 3.0.1           #
 ########################
 
@@ -258,10 +258,11 @@ Pause
 
 $scriptcontent = @"
 
-##########################
-# Created by Ryan Curran #
-# Revision Date 7/11/24  #
-##########################
+########################
+#Created by Ryan Curran#
+# 7/24/24              #
+# Ver. 3.0.1           #
+########################
 
 Add-Type -assembly "system.io.compression.filesystem"
 Add-Type -AssemblyName PresentationCore,PresentationFramework
