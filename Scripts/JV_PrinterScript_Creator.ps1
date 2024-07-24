@@ -335,7 +335,7 @@ Try{
 
     #find the INF file
     Write-output "Searching for $($SelectedEntry.INFFileName) in `$userpath`$driverFoldername"
-    `$INFPath = Get-childitem -Path "`$userpath\`$driverFoldername" -Recurse -Filter "$($SelectedEntry.INFFileName)" | select FullName -Last 1
+    `$INFPath = Get-childitem -Path "`$userpath\`$driverFoldername" -Recurse -Filter "$($SelectedEntry.INFFileName)" | select FullName -First 1
 
     `$INFPath.FullName
 
