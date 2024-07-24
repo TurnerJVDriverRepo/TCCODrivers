@@ -1,6 +1,7 @@
 ########################
 #Created by Ryan Curran#
 # 7/11/24              #
+# Ver. 3.0.1           #
 ########################
 
 Function Check-RunAsAdministrator()
@@ -333,7 +334,7 @@ Try{
 
     #find the INF file
     Write-output "Searching for $($SelectedEntry.INFFileName) in `$userpath`$driverFoldername"
-    `$INFPath = Get-childitem -Path "`$userpath\`$driverFoldername" -Recurse -Filter "$($SelectedEntry.INFFileName)" | select FullName
+    `$INFPath = Get-childitem -Path "`$userpath\`$driverFoldername" -Recurse -Filter "$($SelectedEntry.INFFileName)" | select FullName -Last 1
 
     `$INFPath.FullName
 
