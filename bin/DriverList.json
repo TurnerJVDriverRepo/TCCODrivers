@@ -1014,12 +1014,6 @@
         "INFFileName":  "oemsetup.inf"
     },
     {
-        "FileName":  "Ricoh Universal Print Driver PCL6.zip",
-        "PrinterModel":  "Lanier Universal Print Driver PCL6",
-        "DriverLabel":  "RICOH PCL6 UniversalDriver V4.38",
-        "INFFileName":  "oemsetup.inf"
-    },
-    {
         "FileName":  "Ricoh Universal PCL6 V4.zip",
         "PrinterModel":  "Ricoh Universal PCL6 V4",
         "DriverLabel":  "PCL6 V4 Driver for Universal Print",
